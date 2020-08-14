@@ -1,3 +1,4 @@
+require "pry"
 class Customer
   attr_accessor :name, :age
  
@@ -22,5 +23,5 @@ class Customer
     meal.customer == self
     end
   end
-  
+  binding.pry
 end
