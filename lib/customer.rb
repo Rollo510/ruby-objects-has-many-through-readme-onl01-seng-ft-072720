@@ -23,8 +23,5 @@ class Customer
     meal.customer == self
     end
   end
-alex = Customer.new("Alex", 30)
-rachel = Customer.new("Rachel", 27)
-dan = Waiter.new("Dan", 3)
-binding.pry
+
 end
