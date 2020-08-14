@@ -23,5 +23,6 @@ class Customer
     meal.customer == self
     end
   end
+  
   binding.pry
 end
